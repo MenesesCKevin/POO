@@ -12,3 +12,4 @@ C:\Users\KevinMeneses\source\repos\SuperHeroeApp\SuperHeroeApp\obj\Debug\net8.0\
 C:\Users\KevinMeneses\source\repos\SuperHeroeApp\SuperHeroeApp\obj\Debug\net8.0\SuperHeroeApp.pdb
 C:\Users\KevinMeneses\source\repos\SuperHeroeApp\SuperHeroeApp\obj\Debug\net8.0\SuperHeroeApp.genruntimeconfig.cache
 C:\Users\KevinMeneses\source\repos\SuperHeroeApp\SuperHeroeApp\obj\Debug\net8.0\ref\SuperHeroeApp.dll
+C:\Users\KevinMeneses\source\repos\SuperHeroeApp\SuperHeroeApp\obj\Debug\net8.0\SuperHeroeApp.sourcelink.json

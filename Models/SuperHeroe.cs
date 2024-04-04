@@ -8,8 +8,22 @@ namespace SuperHeroeApp.Models
 {
     class SuperHeroe
     {
+        private string _Nombre;
         public int Id = 1;
-        public string Nombre;
+        public string Nombre {
+            get { 
+                return _Nombre;
+            }
+            set
+            {
+                _Nombre = value.Trim();
+            }
+        }
+
+        public string NombreEIdentidadSecreta { get {
+                return $"{Nombre} ({IdentidadSecreta})";
+            } }
+
         public string IdentidadSecreta;
         public string Ciudad;
         public List<SuperPoder> SuperPoderes = new List<SuperPoder>();
@@ -27,7 +41,7 @@ namespace SuperHeroeApp.Models
             StringBuilder sb = new StringBuilder();
             foreach (var item in SuperPoderes)
             {
-                sb.Append($"{Nombre} esta usando el superpoder {item.Nombre}!! \n");
+                sb.Append($"{NombreEIdentidadSecreta} esta usando el superpoder {item.Nombre}!! \n");
             }
             return sb.ToString();
         }
