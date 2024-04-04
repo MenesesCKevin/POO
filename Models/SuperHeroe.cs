@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using SuperHeroeApp.Interfaces;
 namespace SuperHeroeApp.Models
 {
-    class SuperHeroe
+    class SuperHeroe: Heroe, ISuperHeroe
     {
         private string _Nombre;
-        public int Id = 1;
-        public string Nombre {
+        public int Id { get; set; } = 1;
+        public override string Nombre {
             get { 
                 return _Nombre;
             }
@@ -24,7 +24,7 @@ namespace SuperHeroeApp.Models
                 return $"{Nombre} ({IdentidadSecreta})";
             } }
 
-        public string IdentidadSecreta;
+        public string IdentidadSecreta { get; set; }
         public string Ciudad;
         public List<SuperPoder> SuperPoderes = new List<SuperPoder>();
         public bool PuedeVolar = false;
@@ -44,6 +44,17 @@ namespace SuperHeroeApp.Models
                 sb.Append($"{NombreEIdentidadSecreta} esta usando el superpoder {item.Nombre}!! \n");
             }
             return sb.ToString();
+        }
+
+        public override string SalvarElMundo()
+        {
+            return $"{NombreEIdentidadSecreta} ha salvado el mundo";
+        }
+
+        public override string SalvarLaTierra()
+        {
+            //return base.SalvarLaTierra();
+            return $"{NombreEIdentidadSecreta} ha salvado la tierra";
         }
     }
 }

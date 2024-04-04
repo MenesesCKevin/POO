@@ -1,5 +1,6 @@
 ﻿
 using System.Text;
+using SuperHeroeApp;
 using SuperHeroeApp.Models;
 
 var regenaracion = new SuperPoder();
@@ -43,6 +44,8 @@ superman.SuperPoderes = superpoderesSuperman;
 string resultadoPoderes = superman.UsarSuperPoderes();
 Console.WriteLine(resultadoPoderes);
 //Console.WriteLine(superman.IdentidadSecreta);
+string resulSalvarMundo = superman.SalvarElMundo();
+Console.WriteLine(resulSalvarMundo);
 
 /*Antiheroe*/
 var wolvering = new AntiHeroe();
@@ -56,6 +59,12 @@ string resultadoWolveringPoderes = wolvering.UsarSuperPoderes();
 //Console.WriteLine(resultadoWolveringPoderes);
 string accionAntiheroe = wolvering.RealizarAccionDEAntiheroe("Ataca a la policia");
 Console.WriteLine(accionAntiheroe);
+
+/********************************************************************************************/  
+var imprimirInfo = new ImprimirInfo();
+imprimirInfo.ImprimirHeroe(superman);
+imprimirInfo.ImprimirHeroe(wolvering);
+
 
 
 enum NivelPoder
