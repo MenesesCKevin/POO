@@ -1,0 +1,14 @@
+C:\Users\KevinMeneses\source\repos\SuperHeroeApp\SuperHeroeApp\bin\Debug\net8.0\SuperHeroeApp.exe
+C:\Users\KevinMeneses\source\repos\SuperHeroeApp\SuperHeroeApp\bin\Debug\net8.0\SuperHeroeApp.deps.json
+C:\Users\KevinMeneses\source\repos\SuperHeroeApp\SuperHeroeApp\bin\Debug\net8.0\SuperHeroeApp.runtimeconfig.json
+C:\Users\KevinMeneses\source\repos\SuperHeroeApp\SuperHeroeApp\bin\Debug\net8.0\SuperHeroeApp.dll
+C:\Users\KevinMeneses\source\repos\SuperHeroeApp\SuperHeroeApp\bin\Debug\net8.0\SuperHeroeApp.pdb
+C:\Users\KevinMeneses\source\repos\SuperHeroeApp\SuperHeroeApp\obj\Debug\net8.0\SuperHeroeApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KevinMeneses\source\repos\SuperHeroeApp\SuperHeroeApp\obj\Debug\net8.0\SuperHeroeApp.AssemblyInfoInputs.cache
+C:\Users\KevinMeneses\source\repos\SuperHeroeApp\SuperHeroeApp\obj\Debug\net8.0\SuperHeroeApp.AssemblyInfo.cs
+C:\Users\KevinMeneses\source\repos\SuperHeroeApp\SuperHeroeApp\obj\Debug\net8.0\SuperHeroeApp.csproj.CoreCompileInputs.cache
+C:\Users\KevinMeneses\source\repos\SuperHeroeApp\SuperHeroeApp\obj\Debug\net8.0\SuperHeroeApp.dll
+C:\Users\KevinMeneses\source\repos\SuperHeroeApp\SuperHeroeApp\obj\Debug\net8.0\refint\SuperHeroeApp.dll
+C:\Users\KevinMeneses\source\repos\SuperHeroeApp\SuperHeroeApp\obj\Debug\net8.0\SuperHeroeApp.pdb
+C:\Users\KevinMeneses\source\repos\SuperHeroeApp\SuperHeroeApp\obj\Debug\net8.0\SuperHeroeApp.genruntimeconfig.cache
+C:\Users\KevinMeneses\source\repos\SuperHeroeApp\SuperHeroeApp\obj\Debug\net8.0\ref\SuperHeroeApp.dll
